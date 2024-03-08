@@ -1,0 +1,253 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Tours & Travels</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="destinationsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Destinations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="destinationsDropdown">
+          <a class="dropdown-item" href="#">Domestic</a>
+          <a class="dropdown-item" href="#">International</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Add your meta tags, stylesheets, and other head elements here -->
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <img src="C:\new folder 12\text.html\rana tours and travels\rana tours .jpg" alt="Travel Imagery">
+    <h1>Explore the World with Us</h1>
+    <!-- Add any additional text or buttons as needed -->
+  </div>
+
+  <!-- The rest of your homepage content goes here -->
+
+</body>
+
+</html>
+<section id="about-us">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>Welcome to [RANA Tours And Travels], where exploration meets excellence.</p>
+    <p>Our mission is to inspire and enable people to discover the beauty of the world through unforgettable travel experiences.</p>
+    <p>At [RANA Tours And Travels], we value:</p>
+    <ul>
+      <li>Passion for Travel</li>
+      <li>Exceptional Service</li>
+      <li>Global Diversity</li>
+      <!-- Add more values as needed -->
+    </ul>
+    <p>Services offered:</p>
+    <ul>
+      <li>Customized Itineraries</li>
+      <li>Group Tours</li>
+      <li>Adventure Packages</li>
+      <!-- Add more services as needed -->
+    </ul>
+    <p>What sets us apart:</p>
+    <ul>
+      <li>Personalized Attention</li>
+      <li>Expert Travel Advisors</li>
+      <li>Exclusive Partnerships</li>
+      <!-- Add more differentiators as needed -->
+    </ul>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destination Gallery</title>
+  <style>
+    /* Define your grid styles */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+
+    /* Style for the images */
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>Gallery:</h2>
+    <div class="gallery">
+      <!-- Add your image elements here -->
+      <img src="‪C:\new folder 12\text.html\rana tours and travels\kolhapur.jpg" alt="Kolapur">
+      <img src="C:\new folder 12\text.html\rana tours and travels\solapur.jpg" alt="Solapur">
+      <img scr="C:\new folder 12\text.html\rana tours and travels\pune.jpg" alt="Pune">
+    </div>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other head elements -->
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- Optional: Add any additional styling for your slider here -->
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper('.swiper-container', {
+        // Add your Swiper configuration options here
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    });
+  </script>
+</head>
+<body>
+  <section>
+    <h2>Featured Destinations:</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Add your slides here -->
+        <div class="swiper-slide">
+          <img src="C:\new folder 12\text.html\rana tours and travels\kolhapur.jpg" alt="KOLHAPUR">
+          <p>Kolhapur city is situated on the banks of Panchganga river and is surrounded by Sahyadri mountain ranges. It is a city known for its historical forts, temples and royal places of erstwhile royals. It is one of the best places to explore the splendor and magnificence of India.</p>
+          <button>Explore</button>
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <!-- Add navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other head elements -->
+  <title>Login</title>
+</head>
+<body>
+  <section>
+    <h2>Login</h2>
+    <form action="login_process.php" method="post">
+      <!-- Add your form fields for username and password -->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other head elements -->
+  <title>Register</title>
+</head>
+<body>
+  <section>
+    <h2>Register</h2>
+    <form action="register_process.php" method="post">
+      <!-- Add your form fields for registration -->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Other head elements -->
+  <style>
+    /* Add your custom styling for the footer */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Add styling for the social media links */
+    footer a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your existing content -->
+
+  <!-- Footer Section -->
+  <footer>
+    <div>
+      <h3>Contact Information:</h3>
+      <p>Phone: +1 (123) 456-7890</p>
+      <p>Email: rana@example.com</p>
+      <p>Address: 123 Main Street, Cityville</p>
+    </div>
+
+    <!-- Social Media Links -->
+    <div>
+      <h3>Connect with Us:</h3>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
